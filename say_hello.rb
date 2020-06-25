@@ -1,9 +1,5 @@
-def say_hello(name= "Ruby Programmer!")
-  if name
+def say_hello(name= "Ruby Programmer")
     puts "Hello #{name}!"
-  else
-    puts "Ruby Programmer!"
-  end
 end
 
 say_hello ("Gabriela")
